@@ -1,4 +1,4 @@
-name: wget1
+name: replaces
 
 on: 
   workflow_dispatch: # on button click
