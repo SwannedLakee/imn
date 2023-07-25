@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: replace
-        run: find . -type f -exec sed -i 's/.theme.css%3FpubDate=230717202833.css/theme.css/g' {} +
+        run: find . -type f -exec sed -i 's/\.theme\.css%3FpubDate=230717202833\.css/theme\.css/g' {} +
 
       - name: Save
         if: always()
